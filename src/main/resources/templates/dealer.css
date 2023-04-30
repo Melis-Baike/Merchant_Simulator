@@ -1,0 +1,40 @@
+.splash{
+    cursor: pointer;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(49, 101, 238);
+    transition: all ease-in-out 600ms;
+}
+
+.splash-header{
+    color: white;
+    font-family: consolas, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash-body{
+    height: 100%;
+    color: white;
+    font-family: consolas, serif;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: unset;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
